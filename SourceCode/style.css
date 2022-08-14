@@ -1,11 +1,13 @@
 .navbar-nav {
     width: 100%!important;
-    text-align: center!important;    
+    text-align: center!important;
+    height: 110px !important;
+    
 }
 
 .navbar-default{
     background-color: white!important;
-    border-width: 0px 0px 3px 0px !important;
+    border-width: 0px 0px 2px 0px !important;
     border-color: #605D66 !important;
 }
 
@@ -27,10 +29,7 @@ margin-top: 15px;
 }
 
 .navcss1{
-background-image: url(logo.png);
-width: 94px;
-height: 79px;
-margin: 10px;    
+margin-top: 20px;
 }
 
 .logocss img{
@@ -87,4 +86,208 @@ text-align: left;
 margin-left: 40px;
 margin-top: 10px;
 }
+
+.fontStyle2{
+font-family: Product Sans;
+font-size: 2vw;
+font-weight: 300;
+color: #5F6368;    
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: left;
+margin-top: 180px;
+}
+.fontStyle3{
+font-family: Product Sans;
+font-size: 2vw;
+font-weight: 300;
+color: #5F6368;    
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: left;
+margin-top: 100px;
+margin-bottom: 50px;
+}
+
+.fontStyle4{
+font-family: Product Sans Light;
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: justified;
+margin-top: 25px;
+}
+
+.fontStyle5{
+font-family: Product Sans;
+font-size: 2vw;
+font-weight: 300;
+color: #5F6368;    
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: left;
+margin-top: 25px;
+margin-bottom: 50px;
+}
+
+.fontStyle6{
+font-family: Product Sans Light;
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: left;
+margin-top: 5px;
+
+}
+
+.projectThumbnail{
+    margin-top: 60px;
+    border: 1px solid #5F6368;
+border-radius: 25px;
+}
+
+.rowmairgin{
+    margin-top: 15px;
+}
+.rowmargin1{
+    margin-top: 35px;
+    padding: 0px !important;
+}
+.projrectangle{
+    background-color: #F2F2F6;
+    height: 200px;
+    width: auto;
+    border-radius: 25px;    
+}
+.projrectangle2{
+    background-color:#E0FBFF;
+    height: 200px;
+    width: auto;
+    border-radius: 25px;    
+}
+
+
+.projrectangle1{
+    background-color: white;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: -25px;
+    border: 1px solid #DADCE0;
+}
+.projrectangle3{
+   background-color:#F7F6F1;
+    height: 200px;
+    width: auto;
+    border-radius: 25px;
+    
+}
+
+.projlogo{
+    align-content: center;
+    margin-top: 50px;
+    padding-left: 25px;
+}
+.projtext{
+    font-family: Product Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: center;
+margin-top: -40px;
+    color:#4692F8;
+
+}
+.projshortdesc{
+    font-family: Product Sans Light;
+font-size: 19px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: left;
+border-radius: 25px;
+border: 1px solid #DADCE0;
+    height: 30px;
+    margin-top: 25px;
+    
+
+}
+
+
+.fontStyle7{
+    font-family: Product Sans Light;
+font-size: 19px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: center;
+
+}
+.fontStyle8{
+    font-family: Product Sans;
+font-size: 19px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.005em;
+    color: #5F6368!important;
+
+}
+
+.negmargin{
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+
+.desctext{
+    font-family: Product Sans;
+font-size: 32px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: left;
+margin-bottom: 25px;
+    color: #5F6368!important;
+
+}
+
+.desctext1{
+    font-family: Product Sans Light;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: justified;
+margin-bottom: 100px;
+    color: #5F6368!important;
+
+}
+/* [1] The container */
+.img-hover-zoom {
+   /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+img{border:0;}
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 10 ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(0.98);
+}
+
+.imghover:hover {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
 
