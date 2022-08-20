@@ -198,8 +198,8 @@ margin-top: 25px;
 }
 
 .fontStyle5{
-font-family: Product Sans;
-font-size: 2vw;
+font-family: 'Product Sans', sans-serif;
+font-size: 24px;
 font-weight: 300;
 color: #5F6368;    
 line-height: 30px;
@@ -210,7 +210,7 @@ margin-bottom: 50px;
 }
 
 .fontStyle6{
-font-family: Product Sans Light;
+font-family:'Product Sans Light', sans-serif;
 font-size: 16px;
 font-weight: 300;
 line-height: 30px;
