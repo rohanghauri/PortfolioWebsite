@@ -91,23 +91,37 @@
 #navcss{
 float:none !important;
 display: inline-block!important;
+margin-top: 15px;
+padding-right: 22.5px;    
 }
+#navcss2{
+    float:none !important;
+display: inline-block!important;
+margin-top: 15px;
+padding-right: 22.5px;    
 
-#navcss a{
-font-family: 'Product Sans Medium', sans-serif;
+}
+#navcss2 a{
+    font-family: 'Product Sans Medium', sans-serif;
 font-size: 18px !important;
-padding-right: 22.5px;
 color: #5F6368;
 font-weight: 500;
 line-height: 30px;
 letter-spacing: 0.005em;
-text-align: center;
-font-size: 26px;
-margin-top: 15px;
+    margin-left: 80px;
+
+}
+#navcss a{
+font-family: 'Product Sans Medium', sans-serif;
+font-size: 18px !important;
+color: #5F6368;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0.005em;
 }
 
 .navcss1{
-margin-top: 20px;
+margin-top: 30px;
 }
 
 .logocss img{
@@ -132,16 +146,22 @@ margin-right: 14px;
 
 .flex-child {
     flex: 1;
-    margin-bottom: 25px;
+    
     
 }  
 
 .flex-child:first-child {
-    margin-right: 20px;
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 80px;
+    margin-left: 75px;
 }
+.flex-child2{
+    margin-left: 100px;}
 
+.heroimage{
+    margin-top: 30px;
+    margin-left: 50px;
+}
 .fontStyle{
 font-family: 'Product Sans', sans-serif;
 font-size: 36px;
@@ -269,24 +289,46 @@ margin-top: 5px;
     padding-left: 25px;
 }
 .projtext{
-    font-family: 'Product Sans Light', sans-serif;
+font-family: 'Product Sans', sans-serif;
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.005em;
 text-align: center;
 margin-top: -40px;
-    color:#4692F8;
-
+color:#006878;
 }
-.projshortdesc{
-    
+.projtext1{
+font-family: 'Product Sans', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: center;
+margin-top: -40px;
+color:#4692F8;
+}
+
+.projtext2{
+font-family: 'Product Sans', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.005em;
+text-align: center;
+margin-top: -40px;
+color:#6C6C6E;
+;
+}
+
+
+
+
+.projshortdesc{    
 border-radius: 25px;
 border: 0px;
 height: 30px;
 margin-top: 25px;
-    
-
 }
 
 
@@ -300,13 +342,16 @@ text-align: center;
 
 }
 .fontStyle8{
-    font-family: 'Product Sans', sans-serif;
+font-family: 'Product Sans', sans-serif;
 font-size: 19px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.005em;
-    color: #5F6368!important;
+color: #5F6368!important;
+}
 
+.toolstext{
+    padding: 8px;
 }
 
 .negmargin{
