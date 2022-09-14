@@ -1,10 +1,14 @@
 <!--@auth M.Rohan Ghauri-->
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">     
     <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">               
+    <!--Outfit Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -12,28 +16,46 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-<body>
+<body style="overflow-x: hidden">
 <!-- Navbar-->  
+<!-- Navbar-->
 <div class="container">    
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <span class="pull-left mobilelogo hidden-lg hidden-xl hidden-md hidden-sm"><img src = "logo1-new.png" width="43px" height="35px"></span>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilenavbar"> 
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
     </div>
-    <!-- Hamburger toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+    <!--Mobile Navbar--> 
+    <div class="hidden-lg hidden-xl hidden-md hidden-sm">
+    <div class="collapse navbar-collapse" id="mobilenavbar">
+        <div class="navitems">Home</div>
+        <div class="navitems">About</div>
+        <div class="navitems">Resume</div>
+    </div>      
+    </div>  
+      
+      
+      
+      
+      
+      
+      
+      
+    <!-- Desktop Navbar -->
+    <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="pull-left navcss1">
         <img src="logo1-new.png" width="48px" height="40px">  
         </li>
         <li id="navcss2"><a href="index.html">&lt;Home&gt</a></li>
-        <li id="navcss"><a href="about.html">&lt;About&gt</a></li>
+        <li id="navcss" class="active"><a href="about.html">&lt;About&gt</a></li>
         <li id="navcss"><a href="#">&lt;Resume&gt</a></li>
         <li class="pull-right logocss"><img src="behance.png">      
         </li>
@@ -45,7 +67,7 @@
     </div>
   </div>
 </nav>
-</div>    
+</div>
     
 <div class="container">
 <div class="row">
@@ -142,6 +164,64 @@ I believe in simple, accessible, and inclusive design for diverse people. I love
     
 </div>
     
+    
+<div class="row" style="overflow: hidden">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator1"></div>    
+</div>    
+    
+<div class="container">    
+<div class="row">
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+    
+    
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+    <p class=" desctextcenter1">let’s connect</p>    
+    </div>
+    
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+</div>
+<div class="row">
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-bottom: 35px;">
+<div style="margin-left: 15px;">
+        <img src = "linkdin.png" width="34px" height="34px" style="margin-left:5px;">
+        <img src = "github.png" width="34px" height="34px" style="margin-left:5px;">
+        <img src = "behance.png" width="34px" height="34px" style="margin-left:5px;">
+    </div>
+    </div>
+    
+    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>    
+</div>    
+
+<div class="row">
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+    
+    
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 desctextcenter2">
+        <p>projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;visual arts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; photography</p>
+    </div>
+    
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+</div>        
+</div>    
+<div class="row" style="overflow: hidden">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator2"></div>    
+</div>    
+    
+<div class="row">
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+<img src="logo1-new.png" width="45px" height="40px" style=" margin-left: 150px; margin-top: 34px; margin-bottom: 40px;">    
+</div>
+
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
+    
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 footer1"><img src="Copyright.png" width="21px" height="21px">Yasir Iqbal 2022</div>
+    
+
+    
+    
+    
+</div>        
     
     
 
