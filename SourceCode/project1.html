@@ -1,10 +1,14 @@
 <!--@auth M.Rohan Ghauri-->
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">     
     <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">               
+    <!--Outfit Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">   
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -14,20 +18,38 @@
     </head>
 <body>
 <!-- Navbar-->
+<!-- Navbar-->
 <div class="container">    
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <span class="pull-left mobilelogo hidden-lg hidden-xl hidden-md hidden-sm"><img src = "logo1-new.png" width="43px" height="35px"></span>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilenavbar"> 
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
     </div>
-    <!-- Hamburger toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+    <!--Mobile Navbar--> 
+    <div class="hidden-lg hidden-xl hidden-md hidden-sm">
+    <div class="collapse navbar-collapse" id="mobilenavbar">
+        <div class="navitems">Home</div>
+        <div class="navitems">About</div>
+        <div class="navitems">Resume</div>
+    </div>      
+    </div>  
+      
+      
+      
+      
+      
+      
+      
+      
+    <!-- Desktop Navbar -->
+    <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="pull-left navcss1">
         <img src="logo1-new.png" width="48px" height="40px">  
@@ -45,8 +67,7 @@
     </div>
   </div>
 </nav>
-</div>    
-
+</div>
     
     
     
@@ -117,10 +138,21 @@ Unity, Revit, Rhino3D, Figma, Echo3D, C#
     
     
 <div class="row">
-<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 desctext">project description</div>
-<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 desctext1">The idea behind our project is being able to show architectural projects without the need of leaving your home. In a time of covid, not being able to leave your home can be an issue due to quarantines or taking care of family members who are sick. Wanting to buy a home from the comfort of being indoors can be now done with Vestibule. With Vestibule you will be able to see 3d models of structures such as residential homes, schools, and recreational spaces from a single picture.</div>    
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 paddingZero">
     
-</div>    
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft6">project description</p></div>
     
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero desctext">The vision of Vestibule is to build an Augmented Reality platform where people can sell and buy properties, and to incorporate AR technology for the convenience of people and provide an interactive platform to architects and realtors to showcase their portfolios. This app would help people who are unable to leave their homes due to medical reasons (COVID) or miscellaneous reasons and be able to explore a 3D model of homes, schools, or recreational spaces from the comfort of being indoors.</div>    
+</div>
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 paddingZero"></div>    
+<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 paddingZero">    
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextright1">challenges</p></div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero desctext">.Since the global pandemic it has become difficult for realtors to expland and scale the business
+<br><br>
+.To boost sales for there is a need to create a differentiated and immersive user experience with clean visual design & optimal user experience
+<br><br>    
+.Increase interaction between buyers & realtors for Business Scalability & Expansion</div>    
+</div>           
+    </div>    
     
 </div>    
