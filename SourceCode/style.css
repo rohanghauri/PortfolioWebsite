@@ -32,7 +32,7 @@ background-color: aqua;
 
 .navbar-default{
     background-color: white!important;
-    border-width: 0px 0px 2px 0px !important;
+    border-width: 0px 0px 1px 0px !important;
     border-color: #605d66 !important;
     border-radius: 0px !important;
 }
@@ -61,7 +61,9 @@ color: #5F6368;
 letter-spacing: -0.015em;
 margin-left: 80px;
 }
-
+#navcss2 a:hover{
+    color: #000000;
+}
 #navcss a{
 font-family: 'Outfit';
 font-style: normal;
@@ -71,17 +73,21 @@ line-height: 30px;
 color: #5F6368;
 letter-spacing: -0.015em;
 }
+#navcss a:hover{
+    color:#000000;
 
+}
 
 
 .navcss1{
 margin-top: 30px;
+margin-left: -25px;    
 }
 
 .logocss img{
 width: 31px;
 height: 31px;
-margin-top: 25px;
+margin-top: 30px;
 margin-right: 14px;
 }
 
@@ -203,7 +209,40 @@ margin-top: 5px;
 .projectThumbnail{
     margin-top: 60px;
     border-radius: 25px;
+     transition: .4s ease-out;
    
+    
+}
+
+.projectThumbnail:hover{
+    content: url("Group%203.png");
+     transition: .4s ease-out;
+}
+
+
+.projectThumbnail1{
+    margin-top: 60px;
+    border-radius: 25px;
+    transition: .4s ease-out;
+    
+}
+
+.projectThumbnail1:hover{
+    content: url("Group%205.png");
+     transition: .4s ease-out;
+}
+
+
+.projectThumbnail2{
+    margin-top: 60px;
+    border-radius: 25px;
+    transition: .4s ease-out;
+    
+}
+
+.projectThumbnail2:hover{
+    content: url("Group%204.png");
+     transition: .4s ease-out;
 }
 
 .rowmairgin{
@@ -245,7 +284,7 @@ margin-top: 5px;
 .projlogo{
     align-content: center;
     margin-top: 50px;
-    padding-left: 25px;
+    
 }
 .projtext{
 font-family: 'Outfit';
@@ -257,25 +296,38 @@ letter-spacing: -0.015em;
 text-align: center;
 margin-top: -40px;
 color:#006878;
+border-radius: 25px;
+border: 1px solid #DADCE0;
+background: #FFFFFF;
+margin-top: -23px;
+height: 46px;    
 }
 .projtext1{
-font-family: 'Product Sans', sans-serif;
-font-size: 18px;
+font-family: 'Outfit';
+font-style: normal;
 font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.005em;
+font-size: 18px;
+line-height: 30px;    
+letter-spacing: -0.015em;
 text-align: center;
 margin-top: -40px;
 color:#4692F8;
+border-radius: 25px;
+border: 1px solid #DADCE0;
+background: #FFFFFF;
+margin-top: -23px;
+height: 46px;    
+    
 }
 
 .projtext2{
-font-family: 'Product Sans', sans-serif;
-font-size: 18px;
+font-family: 'Outfit';
+font-style: normal;
 font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.005em;
-text-align: center;
+font-size: 18px;
+line-height: 30px;    
+letter-spacing: -0.015em;
+text-align: center;    
 margin-top: -40px;
 color:#6C6C6E;
 ;
@@ -324,6 +376,10 @@ border: 1px solid #DADCE0;
     margin-bottom: 80px;
 }
 
+.border{
+    border-radius: 25px;
+    border: 1px solid #DADCE0;
+}
 .desctextleft{
 font-family: 'Outfit';
 font-style: normal;
@@ -450,6 +506,122 @@ padding-left: 25px;
 padding-right: 20px;    
 width:250px;  
 }
+
+.desctextleft7{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;    
+letter-spacing: -0.015em;
+text-align: left;
+margin-bottom: 25px;
+color: #5F6368!important;
+background-color:#F2F2F6;
+border-radius: 25px;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 20px;    
+width:235px;  
+}
+
+.desctextleft8{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;    
+letter-spacing: -0.015em;
+text-align: left;
+margin-bottom: 25px;
+color: #5F6368!important;
+background-color:#F2F2F6;
+border-radius: 25px;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 20px;    
+width:140px;  
+}
+.desctextleft9{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;    
+letter-spacing: -0.015em;
+text-align: left;
+margin-bottom: 25px;
+color: #5F6368!important;
+background-color:#F2F2F6;
+border-radius: 25px;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 20px;    
+width:170px;  
+}
+
+.desctextleft10{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;    
+letter-spacing: -0.015em;
+text-align: left;
+margin-bottom: 25px;
+color: #5F6368!important;
+background-color:#F2F2F6;
+border-radius: 25px;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 20px;    
+width:180px;  
+}
+
+.desctextleft11{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;    
+letter-spacing: -0.015em;
+text-align: left;
+margin-bottom: 25px;
+color: #5F6368!important;
+background-color:#F2F2F6;
+border-radius: 25px;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 20px;    
+width:190px;  
+}
+.desctextleft12{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;    
+letter-spacing: -0.015em;
+text-align: left;
+margin-bottom: 25px;
+color: #5F6368!important;
+background-color:#F2F2F6;
+border-radius: 25px;
+padding-top:10px;
+padding-bottom: 10px;
+padding-left: 25px;
+padding-right: 20px;    
+width:190px;  
+}
+
+
+
+
 .desctextright{
 font-family: 'Outfit';
 font-style: normal;
@@ -496,7 +668,7 @@ font-weight: 400;
 font-size: 24px;
 line-height: 30px;    
 letter-spacing: -0.015em;
-text-align: left;
+text-align: center;
 margin-bottom: 50px;
 color: #FFFFFF!important;
 background-color:#6699FF;
@@ -505,8 +677,7 @@ padding-top:10px;
 padding-bottom: 10px;
 padding-left: 20px;
 padding-right: 20px;    
-width:215px;
-margin-left: 90px;    
+width:215px;    
 }
 
 .desctextcenter1{
@@ -573,26 +744,7 @@ color: #5F6368!important;
     overflow: hidden !important;
     margin-top: 84px;
 }
-/* [1] The container */
-.img-hover-zoom {
-   /* [1.1] Set it as per your need */
-  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-}
 
-img{border:0;}
-/* [2] Transition property for smooth transformation of images */
-.img-hover-zoom img {
-  transition: transform 10 ease;
-}
-
-/* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom:hover img {
-  transform: scale(0.98);
-}
-
-.imghover:hover {
-  opacity: 0.5;
-}
 
 .footer {
    width: 100%;
@@ -607,10 +759,19 @@ font-weight: 300;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: -0.015em;
-color: #5F6368; 
-margin-top: 31px;    
+color: #5F6368;
+display: flex;
+align-content: center;
+justify-content: flex-end; 
+align-items: center;
+    
 }
-
+.footer2{
+display: flex;
+align-content: center;
+justify-content: flex-start;    
+    
+}
 
 
 .hoverimg{
@@ -624,7 +785,7 @@ margin-top: 31px;
 }
 .hoverimg:hover{
     transition: .4s ease-out;
-    background: url("footer1hover.png") no-repeat;
+    background: url("footer2hover.png") no-repeat;
     background-size: contain;
 }
 
@@ -638,8 +799,73 @@ margin-top: 31px;
 }
 .hoverimg1:hover{
     transition: .4s ease-out;
-    background: url("footer2hover.png") no-repeat;
+    background: url("footer1hover.png") no-repeat;
     background-size: contain;
 }
 
+.hoverimg2{
+    width: 440px;
+    height: 317px;
+    background: url("footer3.png") no-repeat;
+    background-size: contain;
+    transition: .4s ease-out; 
+    
+}
+.hoverimg2:hover{
+    transition: .4s ease-out;
+    background: url("footer3hover.png") no-repeat;
+    background-size: contain;
+}
+
+
+.flexcssimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flexcssimg1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 626px;
+    
+}
+
+#button {
+  display: inline-block;
+  width: 65px;
+  height: 121px;
+  position: fixed;
+  bottom: 30px;
+  right: 140px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9999;
+}
+@media screen and (min-width: 1440px) {
+    #button{
+        right: 140px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #button{
+        right: 40px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #button{
+        right: 60px;
+        width: 15px;
+    }
+}
+@media screen and (min-width: 425px) {
+    #button{
+        right: 60px;
+        width: 25px;
+    }}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
 
