@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">      
     <head>
     <meta charset="utf-8">
+    <script type="text/javascript" src="scripts/main.js"></script>    
     <link rel="stylesheet" href="style.css">
     <!--Outfit Font Family-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,6 +18,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 <body style="overflow-x: hidden">
+<script async type="text/javascript" src="scripts/main.js"></script>    
 <!-- Navbar-->
 <!-- Navbar-->
 <div class="container">    
@@ -57,7 +59,7 @@
         <li id="navcss2"><a href="index.html">&lt;Home&gt</a></li>
         <li id="navcss"><a href="about.html">&lt;About&gt</a></li>
         <li id="navcss"><a href="#">&lt;Resume&gt</a></li>
-        <li class="pull-right logocss"><img src="behance.png">      
+        <li class="pull-right logocss" style=" margin-right: -40px;"><img src="behance.png">      
         </li>
         <li class="pull-right logocss"><img src="github.png">      
         </li>
@@ -69,7 +71,8 @@
 </nav>
 </div>
     
-    
+<a id="button"><img src="arrowgif.gif"
+    height="65px" width="65px"></a>    
     
     
     
@@ -77,29 +80,24 @@
     
 <div class="row projrectangle2">
     
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4">
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-10">
     
     <img class="img-responsive projlogo" src = "Project2/finallogo.png">    
 </div>
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>    
+<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>    
     
 </div>    
     
-<div class="row">
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        <div class="projrectangle1"></div></div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>    
-</div>    
+
 
 <div class="row">
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6 projtext">
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-1 col-xs-1"></div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10 projtext">
     
-    Branding, UI/ UX, Web Development
+    <p style="margin-top: 7px">Branding, UI/ UX, Web Development</p>
     </div>
-    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-1 col-xs-1"></div>
     
     
     
@@ -248,10 +246,31 @@ Figma, Adobe Illustrator, HTML, CSS, Javascript
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-8 col-xs-12">
     <img src="Project2/8.png" class="img-responsive">
     </div>
-    </div>    
+</div>    
+
+<div class="row" style="display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;">
+    
+    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
+    <img src="Project2/8-1.png" class="img-responsive" height="50px" width="877px">
+    </div>
+    
+    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+    <a href="https://instagram.com/thecollegecrafters?igshid=YmMyMTA2M2Y=">    
+    <img src="Project2/8-2.png" class="img-responsive" height="50px" width="235px">
+        </a>    
+    </div>
+</div>    
+    
+    
     
     
 </div>
+    
+    
+    
+    
 <!--Main Container End-->    
 <div class="row" style="overflow: hidden">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator1"></div>    
@@ -262,8 +281,12 @@ Figma, Adobe Illustrator, HTML, CSS, Javascript
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
     
     
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 ">
-    <p class = "desctextcenter">you may also like</p>    
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4" style=" display: flex;
+  justify-content: center;
+  align-items: center;">
+    <div>
+        <p class = "desctextcenter">you may also like</p>
+    </div>    
     </div>
     
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
@@ -272,9 +295,9 @@ Figma, Adobe Illustrator, HTML, CSS, Javascript
 <div class="row">
 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
     
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hoverimg"></div> 
+    <a href="project3.html"><div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hoverimg"></div> </a>
     
-<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hoverimg1"></div>    
+<a href="project1.html"><div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hoverimg1"></div></a>    
     
     
 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>        
@@ -287,28 +310,35 @@ Figma, Adobe Illustrator, HTML, CSS, Javascript
     
 <div class="container">    
 <div class="row">
-    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+    <div class="col-xl-5 col-lg-5 col-md-4 col-sm-4 col-xs-3"></div>
     
     
-    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
-    <p class=" desctextcenter1">let’s connect</p>    
+    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-6" style="display: flex;
+  justify-content: center;
+  align-items: center;">
+    <div><p class=" desctextcenter1">let’s connect</p>
+    </div>    
     </div>
     
-    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
+    <div class="col-xl-5 col-lg-5 col-md-4 col-sm-4 col-xs-3"></div>
 </div>
+    
 <div class="row">
-    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
-    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2" style="margin-bottom: 35px;">
-<div style="margin-left: 15px;">
-        <img src = "linkdin.png" width="34px" height="34px" style="margin-left:5px;">
-        <img src = "github.png" width="34px" height="34px" style="margin-left:5px;">
-        <img src = "behance.png" width="34px" height="34px" style="margin-left:5px;">
+    <div class="col-xl-5 col-lg-5 col-md-4 col-sm-4 col-xs-3"></div>
+    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-xs-6" style="margin-bottom: 35px;display: flex;
+  justify-content: center;
+  align-items: center;">
+<div style="margin-left: -5px">
+        <img src = "linkdin.png" width="34px" height="34px" >
+        <img src = "github.png" width="34px" height="34px" >
+        <img src = "behance.png" width="34px" height="34px" >
     </div>
     </div>
     
-    <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>    
+    <div class="col-xl-5 col-lg-5 col-md-4 col-sm-4 col-xs-3"></div>    
 </div>    
 
+    
 <div class="row">
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
     
@@ -324,15 +354,16 @@ Figma, Adobe Illustrator, HTML, CSS, Javascript
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator2"></div>    
 </div>    
     
-<div class="row">
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
-<img src="logo1-new.png" width="45px" height="40px" style=" margin-left: 150px; margin-top: 34px; margin-bottom: 40px;">    
+<div class="row" style="margin-bottom: 30px">
+<div class="container">    
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 footer2">
+<img src="logo1-new.png" width="45px" height="40px">    
 </div>
 
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6"></div>
+<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-4"></div>
     
-<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 footer1"><img src="Copyright.png" width="21px" height="21px">Yasir Iqbal 2022</div>
-    
+<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-5 footer1"><img src="Copyright.png" width="21px" height="21px">Yasir Iqbal 2022</div>
+</div>    
 
     
     
