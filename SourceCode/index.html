@@ -5,6 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
         
     <head>
+    <link rel="stylesheet" href="scripts/animate.css"/>    
+   <script src="scripts/wow.js"></script>
+    <script>wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       150,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>    
+    
     <script type="text/javascript" src="scripts/main.js"></script>    
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
@@ -39,9 +53,11 @@
     <!--Mobile Navbar--> 
     <div class="hidden-lg hidden-xl hidden-md hidden-sm">
     <div class="collapse navbar-collapse" id="mobilenavbar">
-        <div class="navitems">Home</div>
-        <div class="navitems">About</div>
-        <div class="navitems">Resume</div>
+        <a href="index.html"><div class="navitems">&lt;Home&gt</div></a>
+        <a href="about.html">
+        <div class="navitems">&lt;About&gt</div></a>
+        <a href="#">
+        <div class="navitems">&lt;Resume&gt</div></a>
     </div>      
     </div>  
       
@@ -79,32 +95,31 @@
 </nav>
 </div>    
     
-<a id="button"><img src="arrowgif.gif"
-    height="65px" width="65px"></a>
+
     
     
 <!-- Hero Section-->
 <div class="container">    
 <div class="row">
-    <div class="flex-container col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+    <div class="flex-container col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 wow fadeIn">
         <div class="flex-child">
             <img class = "img-responsive"src = "heroSec1.png">
         </div>
 </div>    
 
-<div class="flex-container2 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
+<div class="flex-container2 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 wow fadeIn">
   <div class="flex-child2">
     <div class="fontStyle">yasir iqbal<br> a <span style="color: #6699FF">designer</span> who <span style="color:#FFB25C">codes</span></div>
       <div class="fontStyle1">i am passionate about visual design,<br>interaction design, & product design</div>
   </div>
 </div>
 </div>
-    
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 fontStyle2">
     projects {</div>    
 </div>    
-<div class="row">
+    
+<div class="row wow fadeIn">
     <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
     <a href="project1.html">    
     <img class = "img-responsive projectThumbnail1 imghover"src = "projectsThumbnail%20(2).png"></a>
@@ -117,7 +132,7 @@
     
     
 </div>
-<div class="row">
+<div class="row wow fadeIn">
     <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
         <a href="project3.html">
         <img class = "img-responsive projectThumbnail2 imghover"src = "projectsThumbnail%20(1).png">
@@ -125,15 +140,18 @@
     </div>
         
     
-</div>
-    
+</div>    
 <div class="row">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 fontStyle3">
     }</div>    
-</div>    
-    
-    
+</div>     
 </div>
+    
+    
+    
+    
+    
+    
     
 <div class="row" style="overflow: hidden">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator1"></div>    
