@@ -4,7 +4,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">     
     <head>
     <meta charset="utf-8">
-      
+    
+    <link rel="stylesheet" href="scripts/animate.css"/>    
+   <script src="scripts/wow.js"></script>
+    <script>wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       150,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>    
+        
     <link rel="stylesheet" href="style.css">
     <!--Outfit Font Family-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,9 +51,12 @@
     <!--Mobile Navbar--> 
     <div class="hidden-lg hidden-xl hidden-md hidden-sm">
     <div class="collapse navbar-collapse" id="mobilenavbar">
-        <div class="navitems">Home</div>
-        <div class="navitems">About</div>
-        <div class="navitems">Resume</div>
+        <a href="index.html"><div class="navitems">&lt;Home&gt</div></a>
+        <a href="about.html">
+            <div class="navitems">&lt;About&gt</div></a>
+        <a href="#">
+        <div class="navitems">&lt;Resume&gt</div>
+        </a>    
     </div>      
     </div>  
       
@@ -78,7 +95,7 @@
     
 <div class="container">
     
-<div class="row projrectangle">
+<div class="row projrectangle wow fadeIn">
     
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-xs-10">
@@ -88,10 +105,8 @@
 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-1"></div>    
     
 </div>    
-    
-    
 
-<div class="row">
+<div class="row wow fadeIn">
     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-1 col-xs-1"></div>
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-10 col-xs-10 projtext1">
     <p style="margin-top: 7px">UI/UX, Augmented Reality, 3D Design</p>
@@ -102,7 +117,7 @@
     
 </div>  
     
-<div class="row">
+<div class="row wow fadeInUp" data-wow-duration="1s">
     
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 rowmargin1">
     <img class="img-responsive"src = "Project1/projectfull.png" width="100%" > 
@@ -118,7 +133,7 @@
     
 </div>    
     
-<div class="row ">
+<div class="row wow fadeInUp">
     
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 fontStyle7 negmargin">
     
@@ -133,45 +148,66 @@ Unity, Revit, Rhino3D, Figma, Echo3D, C#
     
 </div>
     
-    
-<div class="row">
+<div class="row wow fadeIn">
 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 paddingZero">
     
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft6">project description</p></div>
     
-<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero desctext">The vision of Vestibule is to build an Augmented Reality platform where people can sell and buy properties, and to incorporate AR technology for the convenience of people and provide an interactive platform to architects and realtors to showcase their portfolios. This app would help people who are unable to leave their homes due to medical reasons (COVID) or miscellaneous reasons and be able to explore a 3D model of homes, schools, or recreational spaces from the comfort of being indoors.</div>    
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero desctext"><p style="text-align: justify!important">The vision of Vestibule is to build an Augmented Reality platform where people can sell and buy properties, and to incorporate AR technology for the convenience of people and provide an interactive platform to architects and realtors to showcase their portfolios. This app would help people who are unable to leave their homes due to medical reasons (COVID) or miscellaneous reasons and be able to explore a 3D model of homes, schools, or recreational spaces from the comfort of being indoors.</p></div>    
 </div>
 <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12 paddingZero"></div>    
 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 paddingZero">    
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextright1">challenges</p></div>
-<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero desctext">.Since the global pandemic it has become difficult for realtors to expland and scale the business
-<br><br>
-.To boost sales for there is a need to create a differentiated and immersive user experience with clean visual design & optimal user experience
-<br><br>    
-.Increase interaction between buyers & realtors for Business Scalability & Expansion</div>    
-</div>           
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero desctext">
+<table>
+<tr>
+<td style="text-align: center; vertical-align: baseline;">•&nbsp;&nbsp;</td>
+<td><p>Since the global pandemic it has become difficult for realtors to expland and scale the business<br></p></td>        
+</tr>
+    
+<tr>
+<td style="text-align: center; vertical-align: baseline;">•&nbsp;&nbsp;</td>
+<td><p>To boost sales for there is a need to create a differentiated and immersive user experience with clean visual design & optimal user experience<br></p></td>        
+</tr>
+    
+<tr>
+<td style="text-align: center; vertical-align: baseline;">•&nbsp;&nbsp;</td>
+<td><p>Increase interaction between buyers & realtors for Business Scalability & Expansion<br></p></td>        
+</tr>    
+</table>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </div>    
+</div>           
+</div>  
+    
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator"></div>    
 </div>  
     
-    
 <div class="row">    
-<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft7">potential solutions</p></div>    
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft7 wow fadeIn">potential solutions</p></div>    
 </div>
 
 <div class="row" style="margin-bottom: 50px">
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingZero" style=" display: flex;
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingZero wow fadeInLeft" style=" display: flex;
   justify-content: space-evenly;
   align-items: center;">    
         <img src="Project1/1.png" width="360px" height="170px" class="img-responsive">
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingZero" style=" display: flex;
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingZero wow fadeInDown" style=" display: flex;
   justify-content:space-evenly;
   align-items: center;">
     <img src="Project1/2.png" width="360px" height="170px" class="img-responsive">
     </div>
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingZero" style=" display: flex;
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingZero wow fadeInRight" style=" display: flex;
   justify-content:space-evenly;
   align-items: center;">
     <img src="Project1/3.png" width="360px" 
@@ -181,51 +217,45 @@ height="170px" class="img-responsive">
 
     
 </div>
-    
-    
+        
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator"></div>    
 </div>      
     
-    
-<div class="row">
+<div class="row wow fadeIn">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft8">userflow</p></div>    
 </div>
-    
-    
-<div class="row">
+        
+<div class="row wow fadeIn">
 <div  class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">    
 <img src="Project1/4.png" width="1126px" height="928px" class="img-responsive">  
 </div>
-    
-    
-<div class="row">
+    </div>    
+        
+<div class="row wow fadeIn">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator"></div>    
 </div>
 
-<div class="row">
+<div class="row wow fadeIn">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft9">wireframes</p></div>    
 </div>    
 
-<div class="row">
+<div class="row wow fadeIn" style="margin-bottom: 50px">
 <div style="
     margin-top: 40px;" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">    
 <img src="Project1/5.png" width="1300px" height="1036px" class="img-responsive">  
 </div>
+</div>    
     
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator"></div>    
 </div>
-
-    
-    
-</div>    
     
 <div class="row" style="margin-bottom: 150px">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft10">final designs</p></div>    
 </div>    
     
-<div class="row" style="margin-bottom: 120px">    
+<div class="row wow fadeIn" style="margin-bottom: 120px">    
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingZero flexcssimg">
 <img src="Project1/6.png"  class="img-responsive"height="626px" width="310px">    
 </div>
@@ -236,9 +266,7 @@ height="170px" class="img-responsive">
 </div>
 </div>
     
-    
-    
-<div class="row" style="margin-bottom: 120px">        
+<div class="row wow fadeIn" style="margin-bottom: 120px">        
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingZero flexcssimg1">
 <img src="Project1/7-1.png"  class="img-responsive"height="227px" width="354px">    
 </div>
@@ -248,11 +276,7 @@ height="170px" class="img-responsive">
 </div>    
 </div>    
 
-    
-    
-    
-    
-<div class="row" style="margin-bottom: 120px">    
+<div class="row wow fadeIn" style="margin-bottom: 120px">    
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingZero flexcssimg">
 <img src="Project1/8.gif"  class="img-responsive"height="626px" width="310px">    
 </div>
@@ -263,11 +287,7 @@ height="170px" class="img-responsive">
 </div>
 </div>    
     
-    
-    
-    
-    
-<div class="row" style="margin-bottom: 120px">        
+<div class="row wow fadeIn" style="margin-bottom: 120px">        
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingZero flexcssimg1">
 <img src="Project1/9-1.png"  class="img-responsive"height="227px" width="354px">    
 </div>
@@ -277,11 +297,7 @@ height="170px" class="img-responsive">
 </div>    
 </div>    
     
-    
-    
-
-    
-<div class="row" style="margin-bottom: 120px">    
+<div class="row wow fadeIn" style="margin-bottom: 120px">    
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingZero flexcssimg">
 <img src="Project1/10.png"  class="img-responsive"height="626px" width="310px">    
 </div>
@@ -292,8 +308,7 @@ height="170px" class="img-responsive">
 </div>
 </div>    
     
-    
-<div class="row" style="margin-bottom: 120px">        
+<div class="row wow fadeIn" style="margin-bottom: 120px">        
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingZero flexcssimg1">
 <img src="Project1/11-1.png"  class="img-responsive"height="227px" width="354px">    
 </div>
@@ -302,9 +317,8 @@ height="170px" class="img-responsive">
 <img src="Project1/11.png"  class="img-responsive"height="626px" width="310px">    
 </div>    
 </div>
-    
-    
-<div class="row" style="margin-bottom: 120px">    
+        
+<div class="row wow fadeIn" style="margin-bottom: 120px">    
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 paddingZero flexcssimg">
 <img src="Project1/12.png"  class="img-responsive"height="626px" width="310px">    
 </div>
@@ -314,25 +328,23 @@ height="170px" class="img-responsive">
 <img src="Project1/12-1.png"  class="img-responsive"height="227px" width="354px">    
 </div>
 </div>    
-    
-    
-    
+ 
 <div class="row">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator"></div>    
 </div>     
     
-<div class="row">
+<div class="row wow fadeIn">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft11">development</p></div>    
 </div>  
     
-<div class="row">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero">
+<div class="row wow fadeInUp">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
     <img src="Project1/13.png" width="1128" height="122" class="img-responsive">
     </div>
 </div>    
     
-<div class="row" style="margin-top: 15px">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero">
+<div class="row wow fadeInUp" style="margin-top: 15px">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <img src="Project1/14.png" width="1128" height="1409" class="img-responsive">
     </div>
 </div>        
@@ -345,28 +357,44 @@ height="170px" class="img-responsive">
 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero"><p class=" desctextleft12">design system</p></div>    
 </div>  
     
-<div class="row" style="margin-top: 15px">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 paddingZero">
+<div class="row wow fadeIn" style="margin-top: 15px">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <img src="Project1/15.png" width="1128" height="1485" class="img-responsive">
     </div>
 </div>    
     
-    
+
     
 </div>
-</div>    
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--footer start-->   
 <div class="row" style="overflow: hidden">
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 seperator1"></div>    
-</div>    
-<!--footer start-->    
+</div>        
+    
 <div class="container">    
 <div class="row">
     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
     
     
-    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4" style=" display: flex;
+    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 wow fadeInUp" style=" display: flex;
   justify-content: center;
   align-items: center;">
     <div>
@@ -378,14 +406,14 @@ height="170px" class="img-responsive">
 </div>
 
 <div class="row">
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>
     
-<a href="project3.html"><div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hoverimg"></div></a> 
+<a href="project3.html"><div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-10 hoverimg"></div></a> 
     
-<a href="project2.html"><div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 hoverimg2"></div></a>    
+<a href="project2.html"><div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-10 hoverimg2"></div></a>    
     
     
-<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>        
+<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-0"></div>        
 </div>
 </div>
     
