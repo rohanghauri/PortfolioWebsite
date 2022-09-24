@@ -1,46 +1,80 @@
-<!--@auth M.Rohan Ghauri-->
 <!DOCTYPE html>
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">     
     <head>
+    <link rel="stylesheet" href="scripts/animate.css"/>    
+   <script src="scripts/wow.js"></script>
+    <script>wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       150,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>    
+        
     <meta charset="utf-8">
+    <script type="text/javascript" src="scripts/main.js"></script>    
     <link rel="stylesheet" href="style.css">
-    <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">               
+    <!--Outfit Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
-<body>
+<body style="overflow-x: hidden">
+<!-- Navbar-->  
 <!-- Navbar-->
 <div class="container">    
 <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <span class="pull-left mobilelogo hidden-lg hidden-xl hidden-md hidden-sm"><img src = "logo1-new.png" width="43px" height="35px"></span>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobilenavbar"> 
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
     </div>
-    <!-- Hamburger toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+    <!--Mobile Navbar--> 
+    <!--Mobile Navbar--> 
+    <div class="hidden-lg hidden-xl hidden-md hidden-sm">
+    <div class="collapse navbar-collapse" id="mobilenavbar">
+        <a href="index.html"><div class="navitems">&lt;Home&gt</div></a>
+        <a href="about.html">
+        <div class="navitems">&lt;About&gt</div></a>
+        <a href="#">
+        <div class="navitems">&lt;Resume&gt</div></a>
+    </div>      
+    </div>  
+          
+      
+      
+      
+      
+      
+      
+      
+    <!-- Desktop Navbar -->
+    <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="pull-left navcss1">
         <img src="logo1-new.png" width="48px" height="40px">  
         </li>
         <li id="navcss2"><a href="index.html">&lt;Home&gt</a></li>
-        <li id="navcss"><a href="about.html">&lt;About&gt</a></li>
+        <li id="navcss" class="active"><a href="about.html">&lt;About&gt</a></li>
         <li id="navcss"><a href="#">&lt;Resume&gt</a></li>
-        <li class="pull-right logocss" style=" margin-right: -40px;"><img src="behance.png">      
+       <li class="pull-right logocss" style=" margin-right: -40px;"><img src="behance.png">      
         </li>
         <li class="pull-right logocss"><img src="github.png">      
         </li>
@@ -50,7 +84,7 @@
     </div>
   </div>
 </nav>
-</div>    
+</div>
 
     
     
