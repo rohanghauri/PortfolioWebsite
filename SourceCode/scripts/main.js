@@ -1,7 +1,7 @@
 var btn = $('#button');
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() > 400) {
+  if ($(window).scrollTop() > 12300) {
     btn.addClass('show');
   } else {
     btn.removeClass('show');
@@ -10,5 +10,5 @@ $(window).scroll(function() {
 
 btn.on('click', function(e) {
   e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '400');
+  $('html, body').animate({scrollTop:0}, '12300');
 });    
