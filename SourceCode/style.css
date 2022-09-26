@@ -1,3 +1,90 @@
+.indeximg1{
+    
+    height: 402px!important;
+    width: 100%;
+    background-image: url("projectsThumbnail%20(2).jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .4s ease-out;
+    -webkit-backface-visibility: hidden;
+
+}
+.indeximg1:hover{
+    -webkit-backface-visibility: hidden;
+    transition: .4s ease-out;
+    height: 402px!important;
+    width: 100%;
+    background-image: url("Group%205.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.indeximg2{
+    -webkit-backface-visibility: hidden;
+    height: 402px!important;
+    width: 100%;
+    background-image: url("projectsThumbnail%20(3).jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .4s ease-out;
+
+}
+.indeximg2:hover{
+    -webkit-backface-visibility: hidden;
+    transition: .4s ease-out;
+    height: 402px!important;
+    width: 100%;
+    background-image: url("Group%203.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.indeximg3{
+    -webkit-backface-visibility: hidden;
+    height: 402px!important;
+    width: 100%;
+    background-image: url("projectsThumbnail%20(1).jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: .4s ease-out;
+
+}
+.indeximg3:hover{
+    -webkit-backface-visibility: hidden;
+    transition: .4s ease-out;
+    height: 402px!important;
+    width: 100%;
+    background-image: url("Group%204.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.topmargin{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     color:#6699FF!important;
     background-color: white !important;
@@ -211,14 +298,14 @@ margin-top: 5px;
 .projectThumbnail{
     margin-top: 60px;
     border-radius: 25px;
-     transition: .4s ease-out;
+    transition: .4s ease-out!important;
    
     
 }
 
 .projectThumbnail:hover{
     content: url("Group%203.png");
-     transition: .4s ease-out;
+    transition: .4s ease-out!important;
 
 }
 
@@ -785,13 +872,21 @@ justify-content: flex-start;
     height: 317px;
     background: url("footer1.png") no-repeat;
     background-size: contain;
-    transition: .4s ease-out; 
+    transition: .4s ease-out;
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
     
 }
 .hoverimg:hover{
     transition: .4s ease-out;
     background: url("footer2hover.png") no-repeat;
     background-size: contain;
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
 }
 
 .hoverimg1{
@@ -800,12 +895,19 @@ justify-content: flex-start;
     background: url("footer2.png") no-repeat;
     background-size: contain;
     transition: .4s ease-out; 
-    
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
 }
 .hoverimg1:hover{
     transition: .4s ease-out;
     background: url("footer1hover.png") no-repeat;
     background-size: contain;
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
 }
 
 .hoverimg2{
@@ -813,13 +915,21 @@ justify-content: flex-start;
     height: 317px;
     background: url("footer3.png") no-repeat;
     background-size: contain;
-    transition: .4s ease-out; 
+    transition: .4s ease-out;
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
     
 }
 .hoverimg2:hover{
     transition: .4s ease-out;
     background: url("footer3hover.png") no-repeat;
     background-size: contain;
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
 }
 
 
@@ -840,7 +950,7 @@ justify-content: flex-start;
 #button {
   display: inline-block;
   width: 65px;
-  height: 121px;
+  height: 151px;
   position: fixed;
   bottom: 30px;
   right: 140px;
@@ -848,23 +958,38 @@ justify-content: flex-start;
   visibility: hidden;
   z-index: 9999;
 }
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.animationfix{
+    visibility: hidden;
+}
+.animationfix.animated{
+    visibility: visible;
+}
+
+
+
 @media screen and (min-width: 1440px) {
     #button{
         right: 140px;
     }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and(max-width:1440px) {
     #button{
         right: 40px;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1024px) {
     #button{
         right: 60px;
         width: 15px;
     }
 }
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 425px) {
     #button{
         right: 60px;
         width: 25px;
@@ -897,34 +1022,60 @@ margin-left: 40px;
     background: url("footer1.png") no-repeat;
     background-size: contain;
     transition: .4s ease-out; 
+    padding: 25px;
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
     
 }
 
 .hoverimg1{
+    padding: 25px;
     margin-left: 32px;
     width: 440px;
     height: 317px;
     background: url("footer2.png") no-repeat;
     background-size: contain;
     transition: .4s ease-out; 
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
     
 }
 
 .hoverimg2{
+    padding: 25px;
     margin-left: 32px;
     width: 440px;
     height: 317px;
     background: url("footer3.png") no-repeat;
     background-size: contain;
     transition: .4s ease-out; 
+    top:5px;
+    bottom:5px;
+    right:5px;
+    left:5px;
     
 }
+    .topmargin{
+        margin-top: -27px;
+    } 
+.desctext{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: -0.015em;
+margin-bottom: 100px;
+margin-left: 0px;       
+color: #5F6368!important;    
+}    
+    .containertop{
+        padding: 25px!important;
+    }    
 
-
-
-}
-#button.show {
-  opacity: 1;
-  visibility: visible;
 }
 
