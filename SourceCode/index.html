@@ -2,24 +2,10 @@
 <!-- 21Aug2022-->
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="user-scalable=no,width=device-width, initial-scale=1">
         
     <head>
-    <link rel="stylesheet" href="scripts/animate.css"/>    
-   <script src="scripts/wow.js"></script>
-    <script>wow = new WOW(
-                      {
-                      boxClass:     'wow',      // default
-                      animateClass: 'animated', // default
-                      offset:       150,          // default
-                      mobile:       true,       // default
-                      live:         true        // default
-                    }
-                    )
-                    wow.init();
-    </script>    
-    
-    <script type="text/javascript" src="scripts/main.js"></script>    
+    <link rel="stylesheet" href="scripts/animate.css"/>     
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet"> 
@@ -34,8 +20,22 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
+    
 <body style="overflow-x:hidden">
-<script async type="text/javascript" src="scripts/main.js"></script>    
+<script async type="text/javascript" src="scripts/main.js"></script>
+<script src="scripts/wow.js"></script>
+    <script>wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       150,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>    
+       
 <!-- Navbar-->
 <div class="container">    
 <nav class="navbar navbar-default" role="navigation">
@@ -99,18 +99,18 @@
     
     
 <!-- Hero Section-->
-<div class="container">    
-<div class="row">
+<div class="container ">    
+<div class="row animationfix">
     <div class="flex-container col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 wow fadeIn">
         <div class="flex-child">
             <img class = "img-responsive"src = "heroSec1.png">
         </div>
 </div>    
 
-<div class="flex-container2 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 wow fadeIn">
+<div class="flex-container2 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
   <div class="flex-child2">
-    <div class="fontStyle">yasir iqbal<br> a <span style="color: #6699FF">designer</span> who <span style="color:#FFB25C">codes</span></div>
-      <div class="fontStyle1">i am passionate about visual design,<br>interaction design, & product design</div>
+    <div class="fontStyle wow fadeInUp">yasir iqbal<br> a <span style="color: #6699FF">designer</span> who <span style="color:#FFB25C">codes</span></div>
+      <div class="fontStyle1 wow fadeInUp">i am passionate about visual design,<br>interaction design, & product design</div>
   </div>
 </div>
 </div>
@@ -120,23 +120,23 @@
 </div>    
     
 <div class="row wow fadeIn">
-    <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-    <a href="project1.html">    
-    <img class = "img-responsive projectThumbnail1 imghover"src = "projectsThumbnail%20(2).png"></a>
+    <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 topmargin">
+    
+        <a href="project1.html" class="indeximg1"><div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 "></div></a>    
+    
     </div>
     
-    <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
-        <a href="project2.html">
-        <img class = "img-responsive projectThumbnail imghover"src = "projectsThumbnail%20(3).png"></a>
+    <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 topmargin ">
+        <a href="project2.html" class="indeximg2"><div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 "></div></a>
+        
     </div>
     
     
 </div>
 <div class="row wow fadeIn">
-    <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <a href="project3.html">
-        <img class = "img-responsive projectThumbnail2 imghover"src = "projectsThumbnail%20(1).png">
-        </a>    
+    <div class="flex-container col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 topmargin">
+        <a href="project3.html" class="indeximg3"><div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 "></div></a>
+        
     </div>
         
     
