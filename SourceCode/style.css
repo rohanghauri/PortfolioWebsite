@@ -177,6 +177,41 @@ height: 31px;
 margin-top: 30px;
 margin-right: 14px;
 }
+.logocss img:hover{
+content: url("behance-hover.png");    
+width: 31px;
+height: 31px;
+margin-top: 30px;
+margin-right: 14px;
+}
+
+.logocss1 img{
+width: 31px;
+height: 31px;
+margin-top: 30px;
+margin-right: 14px;
+}
+.logocss1 img:hover{
+content: url("github-hover.png");    
+width: 31px;
+height: 31px;
+margin-top: 30px;
+margin-right: 14px;
+}
+
+.logocss2 img{
+width: 31px;
+height: 31px;
+margin-top: 30px;
+margin-right: 14px;
+}
+.logocss2 img:hover{
+content: url("linkdin-hover.png");    
+width: 31px;
+height: 31px;
+margin-top: 30px;
+margin-right: 14px;
+}
 
 .img1{
     margin-left: 25px;
@@ -957,6 +992,10 @@ justify-content: flex-start;
   opacity: 0;
   visibility: hidden;
   z-index: 9999;
+    
+}
+#button img{
+   
 }
 
 #button.show {
